@@ -59,12 +59,11 @@ const checkType = (value, expectedType) => {
 
   if (expectedType === "boolean")
     return typeof value === "boolean";
-  
+
   return true;
 };
 
 // Hàm chuẩn hóa dữ liệu theo kiểu
-
 const normalizeValue = (value, type) => {
   if (value === undefined || value === null) return value;
 
@@ -84,6 +83,11 @@ const normalizeValue = (value, type) => {
       if (/^\d{2}\/\d{2}\/\d{4}$/.test(value)) {
         const [dd, mm, yyyy] = value.split("/");
         return `${yyyy}-${mm}-${dd}`;
+      }
+
+      // Chuyển đổi timestamp (string dạng số) -> ISO 8601
+      if (/^\d{13}$/.test(value)) {
+        return new Date(Number(value)).toISOString(); // YYYY-MM-DDTHH:mm:ss.sssZ
       }
 
       return value;
