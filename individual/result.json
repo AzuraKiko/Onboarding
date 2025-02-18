@@ -1,0 +1,670 @@
+[
+  {
+    "Auseix Field": "customerReferenceNumber",
+    "Equix Field": "equix_id",
+    "Auseix Value": "EQ-EQ-659-833-748-R",
+    "Equix Value": "EQ-EQ-659-833-748-R",
+    "Type Valid": "✅",
+    "Match": "✅"
+  },
+  {
+    "Auseix Field": "applicant.entityType",
+    "Equix Field": "account_type",
+    "Auseix Value": "INDIVIDUAL",
+    "Equix Value": "INDIVIDUAL",
+    "Type Valid": "✅",
+    "Match": "✅"
+  },
+  {
+    "Auseix Field": "applicant.person.title",
+    "Equix Field": "applicant_details[0].title",
+    "Auseix Value": "MRS",
+    "Equix Value": "MRS",
+    "Type Valid": "✅",
+    "Match": "✅"
+  },
+  {
+    "Auseix Field": "applicant.person.firstName",
+    "Equix Field": "applicant_details[0].first_name",
+    "Auseix Value": "Van Anh",
+    "Equix Value": "Nicole",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.middleName",
+    "Equix Field": "applicant_details[0].middle_name",
+    "Equix Value": "Athena",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.lastName",
+    "Equix Field": "applicant_details[0].last_name",
+    "Auseix Value": "Test",
+    "Equix Value": "Land",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.residentialAddress",
+    "Equix Field": "N/A",
+    "Auseix Value": {
+      "streetAddress": "Unit 115 Melawondi Road ",
+      "city": "MELAWONDI",
+      "region": {
+        "code": "QLD"
+      },
+      "postalCode": "4570",
+      "country": {
+        "code": "AU"
+      }
+    },
+    "Equix Value": "❌",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.residentialAddress.streetAddress",
+    "Equix Field": "applicant_details[0].residential_address_address_line_1, applicant_details[0].residential_address_address_line_2",
+    "Auseix Value": "Unit 115 Melawondi Road ",
+    "Equix Value": "35 Scalby Street",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.residentialAddress.city",
+    "Equix Field": "applicant_details[0].residential_address_city_suburb",
+    "Auseix Value": "MELAWONDI",
+    "Equix Value": "SCARBOROUGH",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.residentialAddress.region",
+    "Equix Field": "N/A",
+    "Auseix Value": {
+      "code": "QLD"
+    },
+    "Equix Value": "❌",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.residentialAddress.region.code",
+    "Equix Field": "applicant_details[0].residential_address_state",
+    "Auseix Value": "QLD",
+    "Equix Value": "WA",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.residentialAddress.postalCode",
+    "Equix Field": "applicant_details[0].residential_address_postcode",
+    "Auseix Value": "4570",
+    "Equix Value": "6019",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.residentialAddress.country",
+    "Equix Field": "N/A",
+    "Auseix Value": {
+      "code": "AU"
+    },
+    "Equix Value": "❌",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.residentialAddress.country.code",
+    "Equix Field": "applicant_details[0].residential_address_country",
+    "Auseix Value": "AU",
+    "Equix Value": "AUSTRALIA",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.postalAddress",
+    "Equix Field": "N/A",
+    "Auseix Value": {
+      "streetAddress": "Unit 115 Melawondi Road ",
+      "city": "MELAWONDI",
+      "region": {
+        "code": "QLD"
+      },
+      "postalCode": "4570",
+      "country": {
+        "code": "AU"
+      }
+    },
+    "Equix Value": "❌",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.postalAddress.streetAddress",
+    "Equix Field": "applicant_details[0].postal_address_address_line_1, applicant_details[0].postal_address_address_line_2",
+    "Auseix Value": "Unit 115 Melawondi Road ",
+    "Equix Value": "35 Scalby Street",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.postalAddress.city",
+    "Equix Field": "applicant_details[0].postal_address_city_suburb",
+    "Auseix Value": "MELAWONDI",
+    "Equix Value": "SCARBOROUGH",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.postalAddress.region",
+    "Equix Field": "N/A",
+    "Auseix Value": {
+      "code": "QLD"
+    },
+    "Equix Value": "❌",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.postalAddress.region.code",
+    "Equix Field": "applicant_details[0].postal_address_state",
+    "Auseix Value": "QLD",
+    "Equix Value": "WA",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.postalAddress.postalCode",
+    "Equix Field": "applicant_details[0].postal_address_postcode",
+    "Auseix Value": "4570",
+    "Equix Value": "6019",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.postalAddress.country",
+    "Equix Field": "N/A",
+    "Auseix Value": {
+      "code": "AU"
+    },
+    "Equix Value": "❌",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.postalAddress.country.code",
+    "Equix Field": "applicant_details[0].postal_address_country",
+    "Auseix Value": "AU",
+    "Equix Value": "AUSTRALIA",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.emailAddresses",
+    "Equix Field": "N/A",
+    "Auseix Value": [
+      {
+        "type": "work",
+        "value": "test837452@gmail.com",
+        "isPreferred": true
+      }
+    ],
+    "Equix Value": "❌",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.emailAddresses[0].type",
+    "Equix Field": "N/A",
+    "Auseix Value": "work",
+    "Equix Value": "❌",
+    "Type Valid": "✅",
+    "Match": "✅"
+  },
+  {
+    "Auseix Field": "applicant.person.emailAddresses[0].value",
+    "Equix Field": "applicant_details[0].applicant_email",
+    "Auseix Value": "test837452@gmail.com",
+    "Equix Value": "nicole@novus-fintech.com",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.emailAddresses[0].isPreferred",
+    "Equix Field": "N/A",
+    "Auseix Value": true,
+    "Equix Value": "❌",
+    "Type Valid": "✅",
+    "Match": "✅"
+  },
+  {
+    "Auseix Field": "applicant.person.phoneNumbers",
+    "Equix Field": "N/A",
+    "Auseix Value": [
+      {
+        "type": "mobile",
+        "value": "61412345678",
+        "isPreferred": true
+      }
+    ],
+    "Equix Value": "❌",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.phoneNumbers[0].type",
+    "Equix Field": "N/A",
+    "Auseix Value": "mobile",
+    "Equix Value": "❌",
+    "Type Valid": "✅",
+    "Match": "✅"
+  },
+  {
+    "Auseix Field": "applicant.person.phoneNumbers[0].value",
+    "Equix Field": "applicant_details[0].applicant_mobile_phone",
+    "Auseix Value": "61412345678",
+    "Equix Value": "61412345678",
+    "Type Valid": "✅",
+    "Match": "✅"
+  },
+  {
+    "Auseix Field": "applicant.person.phoneNumbers.isPreferred",
+    "Equix Field": "N/A",
+    "Auseix Value": true,
+    "Equix Value": "❌",
+    "Type Valid": "✅",
+    "Match": "✅"
+  },
+  {
+    "Auseix Field": "applicant.person.dateOfBirth",
+    "Equix Field": "applicant_details[0].dob",
+    "Auseix Value": "1997-05-08",
+    "Equix Value": "1999-11-11",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.gender",
+    "Equix Field": "applicant.person.gender",
+    "Auseix Value": "female",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.nationalities",
+    "Equix Field": "applicant.person.nationalities",
+    "Auseix Value": [
+      {
+        "country": "AU",
+        "type": "citizen"
+      }
+    ],
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.nationalities.country",
+    "Equix Field": "applicant.person.nationalities.country",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.nationalities.type",
+    "Equix Field": "applicant.person.nationalities.type",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.employment",
+    "Equix Field": "applicant.person.employment",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.employment.type",
+    "Equix Field": "applicant.person.employment.type",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.employment.category",
+    "Equix Field": "applicant.person.employment.category",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.taxDetails",
+    "Equix Field": "applicant.person.taxDetails",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.taxDetails.country",
+    "Equix Field": "applicant.person.taxDetails.country",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.taxDetails.isSupplied",
+    "Equix Field": "applicant.person.taxDetails.isSupplied",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.taxDetails.taxIdentificationNumber",
+    "Equix Field": "applicant.person.taxDetails.taxIdentificationNumber",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.taxDetails.nonSupplyReasonCode",
+    "Equix Field": "applicant.person.taxDetails.nonSupplyReasonCode",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.identityVerification",
+    "Equix Field": "applicant.person.identityVerification",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.identityVerification.status",
+    "Equix Field": "applicant.person.identityVerification.status",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.identityVerification.completionTimestamp",
+    "Equix Field": "applicant.person.identityVerification.completionTimestamp",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.identityVerification.agentName",
+    "Equix Field": "applicant.person.identityVerification.agentName",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.screeningResults",
+    "Equix Field": "applicant.person.screeningResults",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.screeningResults.status",
+    "Equix Field": "applicant.person.screeningResults.status",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.screeningResults.completionTimestamp",
+    "Equix Field": "applicant.person.screeningResults.completionTimestamp",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.screeningResults.agentName",
+    "Equix Field": "applicant.person.screeningResults.agentName",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "tradingProduct",
+    "Equix Field": "tradingProduct",
+    "Auseix Value": {
+      "type": "domestic-equities",
+      "canTradeWarrants": true,
+      "contractNote": {
+        "type": "digital",
+        "generationType": "day"
+      }
+    },
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "tradingProduct.type",
+    "Equix Field": "tradingProduct.type",
+    "Auseix Value": "domestic-equities",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "tradingProduct.canTradeWarrants",
+    "Equix Field": "tradingProduct.canTradeWarrants",
+    "Auseix Value": true,
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "tradingProduct.contractNote",
+    "Equix Field": "tradingProduct.contractNote",
+    "Auseix Value": {
+      "type": "digital",
+      "generationType": "day"
+    },
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "tradingProduct.contractNote.type",
+    "Equix Field": "tradingProduct.contractNote.type",
+    "Auseix Value": "digital",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "tradingProduct.contractNote.generationType",
+    "Equix Field": "tradingProduct.contractNote.generationType",
+    "Auseix Value": "day",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "settlement",
+    "Equix Field": "settlement",
+    "Auseix Value": {
+      "details": [
+        {
+          "accountName": "Van Anh Test",
+          "branchCode": "182512",
+          "accountNumber": "000123456789",
+          "usedForCredits": true,
+          "usedForDebits": true,
+          "usedForDividends": true,
+          "type": "direct-entry"
+        }
+      ],
+      "nettingPolicy": "net",
+      "holdFunds": false,
+      "redirectDividends": false
+    },
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "settlement.details",
+    "Equix Field": "settlement.details",
+    "Auseix Value": [
+      {
+        "accountName": "Van Anh Test",
+        "branchCode": "182512",
+        "accountNumber": "000123456789",
+        "usedForCredits": true,
+        "usedForDebits": true,
+        "usedForDividends": true,
+        "type": "direct-entry"
+      }
+    ],
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "settlement.details.accountName",
+    "Equix Field": "settlement.details.accountName",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "settlement.details.branchCode",
+    "Equix Field": "settlement.details.branchCode",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "settlement.details.accountNumber",
+    "Equix Field": "settlement.details.accountNumber",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "settlement.details.usedForCredits",
+    "Equix Field": "settlement.details.usedForCredits",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "settlement.details.usedForDebits",
+    "Equix Field": "settlement.details.usedForDebits",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "settlement.details.usedForDividends",
+    "Equix Field": "settlement.details.usedForDividends",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "settlement.details.type",
+    "Equix Field": "settlement.details.type",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "settlement.nettingPolicy",
+    "Equix Field": "settlement.nettingPolicy",
+    "Auseix Value": "net",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "settlement.holdFunds",
+    "Equix Field": "settlement.holdFunds",
+    "Auseix Value": false,
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "settlement.redirectDividends",
+    "Equix Field": "settlement.redirectDividends",
+    "Auseix Value": false,
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "adviser",
+    "Equix Field": "adviser",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "adviser.code",
+    "Equix Field": "adviser.code",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "adviser.brokerageCode",
+    "Equix Field": "adviser.brokerageCode",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "termsAndConditions",
+    "Equix Field": "termsAndConditions",
+    "Auseix Value": {
+      "accepted": true,
+      "methodOfAcceptance": "digital",
+      "timestamp": "2025-02-13T06:32:52.288Z"
+    },
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "termsAndConditions.accepted",
+    "Equix Field": "termsAndConditions.accepted",
+    "Auseix Value": true,
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "termsAndConditions.methodOfAcceptance",
+    "Equix Field": "termsAndConditions.methodOfAcceptance",
+    "Auseix Value": "digital",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "termsAndConditions.timestamp",
+    "Equix Field": "termsAndConditions.timestamp",
+    "Auseix Value": "2025-02-13T06:32:52.288Z",
+    "Type Valid": "✅",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "holdingDetails",
+    "Equix Field": "holdingDetails",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "holdingDetails.hin",
+    "Equix Field": "holdingDetails.hin",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "holdingDetails.pid",
+    "Equix Field": "holdingDetails.pid",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "holdingDetails.address",
+    "Equix Field": "holdingDetails.address",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "holdingDetails.address.addressLines",
+    "Equix Field": "holdingDetails.address.addressLines",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "holdingDetails.address.postCode",
+    "Equix Field": "holdingDetails.address.postCode",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "holdingDetails.emailAddress",
+    "Equix Field": "holdingDetails.emailAddress",
+    "Type Valid": "❌ (Expected string)",
+    "Match": "❌"
+  },
+  {
+    "Auseix Field": "applicant.person.emailAddresses.type",
+    "Equix Field": "N/A",
+    "Auseix Value": "work",
+    "Equix Value": "❌",
+    "Type Valid": "✅",
+    "Match": "✅"
+  }
+]

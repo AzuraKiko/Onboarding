@@ -1,0 +1,104 @@
+{
+    "customerReferenceNumber": "EQ-EQ-659-833-748-R",
+    "applicant": {
+        "person": {
+            "title": "mrs",
+            "firstName": "Van Anh",
+            "lastName": "Test",
+            "residentialAddress": {
+                "streetAddress": "Unit 115 Melawondi Road ",
+                "city": "MELAWONDI",
+                "region": {
+                    "code": "QLD"
+                },
+                "postalCode": "4570",
+                "country": {
+                    "code": "AU"
+                }
+            },
+            "postalAddress": {
+                "streetAddress": "Unit 115 Melawondi Road ",
+                "city": "MELAWONDI",
+                "region": {
+                    "code": "QLD"
+                },
+                "postalCode": "4570",
+                "country": {
+                    "code": "AU"
+                }
+            },
+            "emailAddresses": [
+                {
+                    "type": "work",
+                    "value": "test837452@gmail.com",
+                    "isPreferred": true
+                }
+            ],
+            "phoneNumbers": [
+                {
+                    "type": "mobile",
+                    "value": "61412345678",
+                    "isPreferred": true
+                }
+            ],
+            "dateOfBirth": "1997-05-08",
+            "gender": "female",
+            "nationalities": [
+                {
+                    "country": "AU",
+                    "type": "citizen"
+                }
+            ]
+        },
+        "employment": {
+            "type": "Chief Executives, General Managers and Legislators",
+            "category": "Administrative and Support Services"
+        },
+        "marketingOptedOut": false,
+        "identityVerification": {
+            "status": "verified",
+            "completionTimestamp": "2025-02-13T06:34:17.402Z"
+        },
+        "screeningResults": {
+            "status": "verified",
+            "completionTimestamp": "2025-02-13T06:34:17.402Z"
+        },
+        "taxDetails": [
+            {
+                "country": "AU",
+                "isSupplied": false,
+                "nonSupplyReasonCode": "000000000"
+            }
+        ],
+        "entityType": "Individual"
+    },
+    "tradingProduct": {
+        "type": "domestic-equities",
+        "canTradeWarrants": true,
+        "contractNote": {
+            "type": "digital",
+            "generationType": "day"
+        }
+    },
+    "termsAndConditions": {
+        "accepted": true,
+        "methodOfAcceptance": "digital",
+        "timestamp": "2025-02-13T06:32:52.288Z"
+    },
+    "settlement": {
+        "details": [
+            {
+                "accountName": "Van Anh Test",
+                "branchCode": "182512",
+                "accountNumber": "000123456789",
+                "usedForCredits": true,
+                "usedForDebits": true,
+                "usedForDividends": true,
+                "type": "direct-entry"
+            }
+        ],
+        "nettingPolicy": "net",
+        "holdFunds": false,
+        "redirectDividends": false
+    }
+}
